@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Concentration_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pcm-Or-tDL">
+                                <rect key="frame" x="20" y="64" width="374" height="229"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jvz-e0-tyi">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="71"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elu-kF-aCo">
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KWm-4H-rQw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVn-KS-pbc">
+                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qFd-pX-ilR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D00-yl-9Hk">
+                                                <rect key="frame" x="191" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CIh-Ae-19U"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpZ-rI-iw6">
+                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gQu-FB-f5e"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4Iz-qg-R1J">
+                                        <rect key="frame" x="0.0" y="79" width="374" height="71"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhQ-2n-skv">
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oyd-gL-MVn"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMp-3k-FAy">
+                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QZo-JK-kAP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQd-qR-HqU">
+                                                <rect key="frame" x="191" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RBX-Pj-hVM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZw-le-qZX">
+                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PLP-TZ-esl"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KOa-Dv-IO4">
+                                        <rect key="frame" x="0.0" y="158" width="374" height="71"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvw-Gx-n8M">
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mF6-9F-7TV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTy-Xb-ThK">
+                                                <rect key="frame" x="95.5" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wDJ-zK-GsL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJG-pF-rbt">
+                                                <rect key="frame" x="191" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TWX-CM-HdN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiQ-wp-brp">
+                                                <rect key="frame" x="286.5" y="0.0" width="87.5" height="71"/>
+                                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
+                                                <state key="normal" title=" "/>
+                                                <connections>
+                                                    <action selector="TouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zvs-CY-NiK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gSl-Ew-TAs">
+                                <rect key="frame" x="17" y="765" width="202.5" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Flips : 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sh1-Ad-8ao">
+                                        <rect key="frame" x="0.0" y="0.0" width="202.5" height="39.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Score : 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcY-ze-iR7">
+                                        <rect key="frame" x="0.0" y="39.5" width="202.5" height="39.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="Oxk-lV-vml"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59F-GW-Iij">
+                                <rect key="frame" x="269" y="788" width="125" height="34"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                <color key="tintColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="3" maxX="5" maxY="3"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iEb-Wv-dKq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="gSl-Ew-TAs" secondAttribute="trailing" constant="194.5" id="Gh5-qk-ljd"/>
+                            <constraint firstItem="59F-GW-Iij" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pcm-Or-tDL" secondAttribute="bottom" constant="20" id="Qfp-0E-5dt"/>
+                            <constraint firstItem="59F-GW-Iij" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gSl-Ew-TAs" secondAttribute="trailing" constant="8" symbolic="YES" id="WFE-v8-TTu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gSl-Ew-TAs" secondAttribute="bottom" constant="18" id="Ws2-3k-8u9"/>
+                            <constraint firstItem="pcm-Or-tDL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="d2B-1e-LLV"/>
+                            <constraint firstItem="sh1-Ad-8ao" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pcm-Or-tDL" secondAttribute="bottom" constant="20" id="dCZ-xC-qqu"/>
+                            <constraint firstItem="gSl-Ew-TAs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="eEk-je-6XK"/>
+                            <constraint firstItem="gSl-Ew-TAs" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KOa-Dv-IO4" secondAttribute="bottom" constant="20" id="fbc-SO-sRo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pcm-Or-tDL" secondAttribute="trailing" constant="20" id="gBv-p3-INv"/>
+                            <constraint firstItem="pcm-Or-tDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gvp-UY-C3Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="59F-GW-Iij" secondAttribute="bottom" constant="40" id="k8g-Au-qRs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="59F-GW-Iij" secondAttribute="trailing" constant="20" id="qBy-nG-lQf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Flips" destination="sh1-Ad-8ao" id="7Mf-M4-eiF"/>
+                        <outlet property="Score" destination="kcY-ze-iR7" id="P1L-Wp-sTd"/>
+                        <outletCollection property="CardButtons" destination="PpZ-rI-iw6" collectionClass="NSMutableArray" id="eSA-k6-96f"/>
+                        <outletCollection property="CardButtons" destination="D00-yl-9Hk" collectionClass="NSMutableArray" id="vP3-Hi-wfH"/>
+                        <outletCollection property="CardButtons" destination="elu-kF-aCo" collectionClass="NSMutableArray" id="Unm-6e-QiF"/>
+                        <outletCollection property="CardButtons" destination="SVn-KS-pbc" collectionClass="NSMutableArray" id="6Ka-Wb-7yK"/>
+                        <outletCollection property="CardButtons" destination="uQd-qR-HqU" collectionClass="NSMutableArray" id="ZbM-ic-bag"/>
+                        <outletCollection property="CardButtons" destination="iZw-le-qZX" collectionClass="NSMutableArray" id="TPQ-Hg-f2i"/>
+                        <outletCollection property="CardButtons" destination="ZhQ-2n-skv" collectionClass="NSMutableArray" id="FC6-3H-exe"/>
+                        <outletCollection property="CardButtons" destination="xMp-3k-FAy" collectionClass="NSMutableArray" id="PxU-r2-xOZ"/>
+                        <outletCollection property="CardButtons" destination="MiQ-wp-brp" collectionClass="NSMutableArray" id="Ghf-zT-8Ud"/>
+                        <outletCollection property="CardButtons" destination="aJG-pF-rbt" collectionClass="NSMutableArray" id="w7L-3S-EYI"/>
+                        <outletCollection property="CardButtons" destination="fTy-Xb-ThK" collectionClass="NSMutableArray" id="VS9-mP-HGb"/>
+                        <outletCollection property="CardButtons" destination="xvw-Gx-n8M" collectionClass="NSMutableArray" id="S2I-U0-QSO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="135.9375"/>
+        </scene>
+    </scenes>
+</document>
